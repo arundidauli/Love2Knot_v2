@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/back_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back_arrow"
+        android:padding="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify Me"
+        android:padding="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        style="@style/MyFontStyle"
+        android:textColor="@color/black"
+        android:layout_below="@+id/back_arrow"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txt_title"
+        android:paddingBottom="@dimen/padding_8dp"
+        android:paddingTop="@dimen/padding_8dp"
+        android:layout_above="@+id/btn_continue">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circle_image1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/profile"
+                app:civ_border_width="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                app:civ_border_color="#66A877FF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How it works?"
+                android:padding="8dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="4sp"
+                android:textAlignment="center"
+                android:layout_marginTop="16dp"
+                style="@style/MyFontStyle"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We use your photo to confirm yor're you. If you match, boom you're are verified."
+                android:padding="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:lineSpacingExtra="4sp"
+                android:textAlignment="center"
+                style="@style/MyFontStyle"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. We use your facial recognition to match your selfie with your profile photo"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="8dp"
+                android:lineSpacingExtra="2sp"
+                android:layout_marginTop="8dp"
+                style="@style/MyFontStyle"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Your face is clearly visible in good lighting"
+                android:padding="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:lineSpacingExtra="2sp"
+                style="@style/MyFontStyle"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Selfie aren't not added to your profile"
+                android:padding="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:lineSpacingExtra="2sp"
+                style="@style/MyFontStyle"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take a photo"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAllCaps="false"
+        android:layout_above="@+id/txt_may_be_later"
+        android:background="@drawable/capsule_shape"/>
+    <TextView
+        android:id="@+id/txt_may_be_later"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="May be later"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:lineSpacingExtra="4sp"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        style="@style/MyFontStyle"
+        android:textColor="#E91E63"
+        android:gravity="center_horizontal" />
+
+</RelativeLayout>
