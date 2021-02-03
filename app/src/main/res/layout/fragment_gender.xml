@@ -46,12 +46,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:layout_weight="1"
             android:gravity="center">
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="30dp"
+                app:cardCornerRadius="35dp"
                 android:layout_margin="8dp"
                 app:cardElevation="8sp">
 
@@ -60,6 +61,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_male"
+                    android:padding="@dimen/padding_8dp"
                     android:layout_margin="16dp"/>
 
 
@@ -80,11 +82,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:layout_weight="1"
             android:gravity="center">
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="30dp"
+                app:cardCornerRadius="35dp"
                 android:layout_margin="8dp"
                 app:cardElevation="8sp">
 
@@ -93,6 +96,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_female"
+                    android:padding="@dimen/padding_8dp"
                     android:layout_margin="16dp"/>
 
 
@@ -113,11 +117,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:layout_weight="1"
             android:gravity="center">
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="30dp"
+                app:cardCornerRadius="35dp"
                 android:layout_margin="8dp"
                 app:cardElevation="8sp">
 
@@ -125,6 +130,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_lesbian"
+                    android:padding="@dimen/padding_8dp"
                     android:layout_margin="16dp"/>
 
 

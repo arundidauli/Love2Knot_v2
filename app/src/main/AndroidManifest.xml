@@ -9,16 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Love2Knot_v2">
+        <activity android:name=".activities.ChatsListActivity"></activity>
+        <activity android:name=".activities.MessageActivity" />
+        <activity android:name=".activities.InviteActivity" />
+        <activity android:name=".activities.SupportActivity" />
+        <activity android:name=".activities.SafetyCenterActivity" />
+        <activity android:name=".activities.UpgradePlanActivity" />
+        <activity android:name=".activities.PreferenceActivity" />
+        <activity android:name=".activities.EditProfileActivity" />
+        <activity android:name=".activities.AccountSettingActivity" />
         <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".activities.SaveDetailsActivity" />
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

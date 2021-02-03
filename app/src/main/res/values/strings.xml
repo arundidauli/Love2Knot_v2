@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Love2Knot_v2</string>
+    <string name="help_support"><![CDATA[Help & Support]]></string>
+    <string name="invite_a_friend">Invite a friend</string>
+    <string name="terms_privacy_policy"><![CDATA[Terms & Privacy Policy]]></string>
 </resources>

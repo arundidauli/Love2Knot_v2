@@ -122,8 +122,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:text="Continue"
+        style="@style/MyFontStyle"
         android:layout_margin="16dp"
         android:textAllCaps="false"
-        android:background="@drawable/capsule_shape"/>
+        android:padding="@dimen/padding_8dp"
+        android:textSize="18sp"
+        android:background="@drawable/capsule_shape" />
 
 </RelativeLayout>

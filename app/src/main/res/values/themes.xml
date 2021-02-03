@@ -15,9 +15,9 @@
         <!-- Customize your theme here. -->
 
 
+    </style>
 
-
-
+    <style name="AppBottomSheetDialogSimpleTheme" parent="Theme.Design.Light.BottomSheetDialog">
 
     </style>
 
